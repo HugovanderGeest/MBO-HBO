@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  /*  border-radius: 10px;*/
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.nav {
+  font-size: 14pt;
+  font-weight: 900;
+  width: 99vw;
+  height: 140px;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.logo {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.kop {
+  height: 1000px;
+  /*white: 99vw;*/
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("img/backgroundimg.png");
+  background-size: 55vw;
+}
+
+.backgroundimg {
+  position: absolute;
+}
+
+.li {
+  border: blue 5px;
+  padding: 30px;
+}
+
+.welkom {
+  margin-left: 50px;
+  font-size: 100px;
+  padding: 30px;
+  width: 500px;
+}
+
+.koptekst {
+  margin: 50px;
+  font-size: 20px;
+  padding: 30px;
+  width: 400px;
+}
+
+.login {
+  position: absolute;
+  margin: 10px;
+  float: right;
+  font-size: 20px;
+  top: 60vh;
+  padding: 30px;
+  width: 500px;
+  right: 30vw;
+  background-color: #d7f4ff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.login > input {
+  border: none;
+  padding: 10px 200px 10px 10px;
+  margin: 10px;
+}
+
+.login > label {
+  padding: 10px;
+}
+
+.login > p {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.contact {
+  width: 100%;
+  height: 278px;
+  padding-bottom: 50px;
+  background-color: #d7f4ff;
+}
+
+.contact > h4 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 22pt;
+  padding-top: 40px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-details > div {
+  padding-top: 150px;
+  width: 33vw;
+  padding-left: 50px;
+}
+
+.sectorgroep_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sectorgroep_kop {
+  padding: 20px;
+  width: 100vw;
+}
+
+.blue {
+  color: #015d82;
+}
+
+.sectorgroep_tussen {
+  margin: 30px;
+  background-color: #d7f4ff;
+}
+
+.sectorgroep_profiel {
+  margin: 10px;
+  box-shadow: 5px 5px 10px gray;
+  width: 15vw;
+}
+
+.sectorgroep_profieltekst {
+  padding: 10px;
+}
+
+.samenwerking_kop {
+}
