@@ -191,3 +191,14 @@ a {
   right: 30px;
   top: 200px;
 }
+
+.instellingen_profiel {
+  overflow: hidden;
+  object-fit: fill;
+  width: 25vw;
+  height: 20vw;
+}
+
+.left {
+  margin-left: 130px;
+}
