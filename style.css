@@ -4,6 +4,9 @@
   /*  border-radius: 10px;*/
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+}
+
+body {
   overflow-x: hidden;
 }
 
@@ -11,9 +14,8 @@
   font-size: 11pt;
   font-weight: 900;
   width: 99vw;
-  height: 140px;
+  height: 100px;
   box-sizing: border-box;
-  overflow: hidden;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -23,6 +25,7 @@
 
 .absolute {
   position: absolute;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .logo {
@@ -37,10 +40,10 @@ a {
 
 .kop {
   height: 1000px;
-  /*white: 99vw;*/
   background-position: right;
   background-repeat: no-repeat;
   background-image: url("img/backgroundimg.png");
+  /* bron: pexels.com*/
   background-size: 55vw;
 }
 
@@ -50,7 +53,7 @@ a {
 
 .li {
   border: blue 5px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .welkom {
@@ -78,7 +81,7 @@ a {
   right: 30vw;
   background-color: #d7f4ff;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 2px 2px 5px gray;
 }
 
 .login > input {
@@ -145,14 +148,21 @@ a {
 
 .sectorgroep_tussen {
   margin-left: 9vw;
-
+  padding: 20px;
+  border-radius: 25px;
   background-color: #d7f4ff;
 }
 
-.sectorgroep_profiel {
+.sectorgroep_persoon {
   margin: 10px;
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 2px 2px 5px gray;
   width: 15vw;
+  margin: 30px;
+}
+
+.fit {
+  object-fit: cover;
+  width: 100%;
 }
 
 .sectorgroep_profieltekst {
@@ -208,11 +218,129 @@ a {
 
 .sectorgroep_profiel {
   margin: 10px;
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 2px 2px 5px gray;
   width: 50vw;
 }
 
 .economie_vol {
   width: 80vw;
   margin-top: 30px;
+}
+
+/* ACTUEEL 2 */
+
+.actueel__wrap {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.actueel__datum {
+  width: 45%;
+  height: 300px;
+  margin: 2.5%;
+  display: flex;
+}
+
+.actueel__datum-getal {
+  font-size: 125pt;
+  padding: 0 30px 0 0;
+  color: #015d82;
+}
+
+.actueel__datum-jaar {
+  color: #015d82;
+  font-weight: 900;
+  font-size: 26pt;
+}
+
+.actueel__datum > div {
+  height: 100%;
+}
+
+.actueel__datum > div > h5 {
+  font-size: 30pt;
+  color: #015d82;
+}
+
+.actueel__datum > div:nth-of-type(2) > p {
+  font-size: 18pt;
+}
+
+/* CONTACT */
+.contact__titel {
+  width: 100%;
+  padding: 3%;
+  font-size: 30pt;
+  color: #015d82;
+}
+
+.contact__wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__wrap-contactpersoon {
+  height: 600px;
+  width: 25%;
+}
+
+.contact__wrap-contactpersoon-img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.contact__wrap-contactpersoon > div {
+  height: 60%;
+  padding: 15px;
+}
+
+.contact__wrap-contactpersoon > div > h2 {
+  font-size: 26pt;
+  color: #015d82;
+}
+
+.contact__wrap-contactpersoon > div > p {
+  font-size: 16pt;
+}
+
+/* / */
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  background: white;
+
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
