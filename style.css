@@ -123,9 +123,13 @@ a {
   padding-left: 50px;
 }
 
-.sectorgroep_flex {
+.flexall {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flexall2 {
+  display: flex;
 }
 
 .sectorgroep_kop {
@@ -153,4 +157,23 @@ a {
 }
 
 .samenwerking_kop {
+  margin: 40px;
+}
+
+.samenwerking_stuk {
+  background-color: #d7f4ff;
+  font-size: 25px;
+  padding: 20px 0px 200px 20px;
+  margin: 40px;
+  width: 100vw;
+}
+
+.samenwerking_stukpap {
+  width: 80vw;
+  margin-left: 100px;
+}
+
+.samenwerking_tekst {
+  margin-top: 40px;
+  font-size: 20px;
 }
