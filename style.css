@@ -101,6 +101,7 @@ a {
   height: 278px;
   padding-bottom: 50px;
   background-color: #d7f4ff;
+  margin-top: 20px;
 }
 
 .contact > h4 {
@@ -143,7 +144,8 @@ a {
 }
 
 .sectorgroep_tussen {
-  margin: 30px;
+  margin-left: 9vw;
+
   background-color: #d7f4ff;
 }
 
@@ -202,4 +204,15 @@ a {
 
 .left {
   margin-left: 130px;
+}
+
+.sectorgroep_profiel {
+  margin: 10px;
+  box-shadow: 5px 5px 10px gray;
+  width: 50vw;
+}
+
+.economie_vol {
+  width: 80vw;
+  margin-top: 30px;
 }
